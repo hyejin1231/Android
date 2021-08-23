@@ -9,15 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Hello">
-        <activity android:name=".SubActivity2"></activity>
-        <activity android:name=".SubActivity" />
-        <activity android:name=".LifeCycle">
+        <activity android:name=".practice031">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".practice03">
+
+        </activity>
+        <activity android:name=".SampleScrollView"></activity>
+        <activity android:name=".SampleFrameLayout"></activity>
+        <activity android:name=".SampleTableLayout" />
+        <activity android:name=".SampleRelativeLayout" />
+        <activity android:name=".SubActivity2" />
+        <activity android:name=".SubActivity" />
+        <activity android:name=".LifeCycle" />
         <activity android:name=".sampleLinearLayout" />
         <activity android:name=".practice02" />
         <activity android:name=".practice01" />
