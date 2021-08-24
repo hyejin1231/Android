@@ -9,18 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Hello">
-        <activity android:name=".practice031">
+        <activity android:name=".SampleToast">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".practice03">
-
+        <activity
+            android:name=".SampleOrientation2"
+            android:configChanges="orientation|screenSize|keyboardHidden">
         </activity>
-        <activity android:name=".SampleScrollView"></activity>
-        <activity android:name=".SampleFrameLayout"></activity>
+        <activity android:name=".SampleOrientation"></activity>
+        <activity android:name=".SampleEvnet" />
+        <activity android:name=".SampleDrawable" />
+        <activity android:name=".SampleWidget" />
+        <activity android:name=".practice031" />
+        <activity android:name=".practice03" />
+        <activity android:name=".SampleScrollView" />
+        <activity android:name=".SampleFrameLayout" />
         <activity android:name=".SampleTableLayout" />
         <activity android:name=".SampleRelativeLayout" />
         <activity android:name=".SubActivity2" />
